@@ -1,0 +1,24 @@
+# DFA for recognizing strings over {a, b} that start with 'abb'
+
+# number of states:
+5
+
+# enter transitions as space-separated list,
+# Format: current_state next_state input
+# Example: 0 1 a means from state 0, on input 'a', transition to state 1
+
+0 0 abε
+1 2 a
+1 0 b
+2 0 a
+2 3 b
+3 4 b
+3 0 a
+4 4 abε
+-1
+
+# initial state
+1
+
+# final state as space-separated list
+4

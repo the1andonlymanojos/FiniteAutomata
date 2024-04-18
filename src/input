@@ -1,0 +1,22 @@
+# are comments
+# number of states:
+3
+
+
+# enter transitions as space seperated list,
+# 0 -> 1 for input 1 is written as
+# 0 1 1
+
+0 0 0
+0 1 1
+1 0 1
+1 2 0
+2 2 1
+2 1 0
+-1
+
+# initial state
+0
+
+#final state as space seperated list
+0
